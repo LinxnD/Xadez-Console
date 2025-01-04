@@ -1,7 +1,5 @@
-﻿using tabuleiro;
+﻿using Xadrez_Console.tabuleiro;
 
-Posicao posicao;
+Tabuleiro tap = new Tabuleiro(8, 8);
 
-posicao = new Posicao(3, 4);
-
-Console.WriteLine(posicao);
+Console.WriteLine(tap.pecas);

@@ -1,5 +1,6 @@
-﻿using Xadrez_Console.tabuleiro;
+﻿using tabuleiro;
+using xadrez_console;
 
 Tabuleiro tap = new Tabuleiro(8, 8);
 
-Console.WriteLine(tap.pecas);
+Tela.imprimirTabuleiro(tap);

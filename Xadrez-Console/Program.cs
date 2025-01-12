@@ -4,8 +4,14 @@ using xadrez;
 using Xadrez_Console;
 using Xadrez_Console.tabuleiro;
 
-PosicaoXadrez posicao = new PosicaoXadrez('c', 7);
 
-Console.WriteLine(posicao);
+Tabuleiro tab = new Tabuleiro(8, 8);
 
-Console.WriteLine(posicao.toPosicao());
+tab.colocarPeca(new Rei(tab, Cor.Preta), new Posicao(0, 2));
+
+Tela.imprimirTabuleiro(tab);
+
+
+
+
+Console.ReadLine();

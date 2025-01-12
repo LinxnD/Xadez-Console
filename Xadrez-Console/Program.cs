@@ -3,13 +3,13 @@ using tabuleiro;
 using xadrez;
 using Xadrez_Console;
 using Xadrez_Console.tabuleiro;
+using Xadrez_Console.xadrez;
 
 
-Tabuleiro tab = new Tabuleiro(8, 8);
+PartidaDeXadrez partida = new PartidaDeXadrez();
 
-tab.colocarPeca(new Rei(tab, Cor.Preta), new Posicao(0, 2));
 
-Tela.imprimirTabuleiro(tab);
+Tela.imprimirTabuleiro(partida.Tab);
 
 
 

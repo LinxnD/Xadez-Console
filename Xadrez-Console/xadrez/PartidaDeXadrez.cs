@@ -14,6 +14,7 @@ namespace Xadrez_Console.xadrez
         public Tabuleiro Tab {  get; private set; }
         private int Turno;
         private Cor JogadorAtual;
+        public bool Terminada {  get; private set; }
 
         public PartidaDeXadrez()
         {
